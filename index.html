@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ખંડેવાલ પ્રાથમિક શાળા</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #0b5c1e;
+            color: white;
+            padding: 15px;
+        }
+        header h3 {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        header h1 {
+            margin: 5px 0;
+            font-size: 24px;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 12px;
+        }
+        .marquee-bar {
+            background-color: #cc0000;
+            color: white;
+            padding: 8px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        /* Slider CSS */
+        .slider-container {
+            max-width: 1200px;
+            height: 400px;
+            margin: 20px auto;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            background-color: #ddd;
+            position: relative;
+        }
+        .slide {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .slide.active {
+            opacity: 1;
+        }
+        .login-buttons, .menu-grid {
+            margin: 20px auto;
+            max-width: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 0 10px;
+        }
+        .btn {
+            background-color: #1a5276;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .btn-green {
+            background-color: #27ae60;
+        }
+        .welcome-section {
+            background-color: white;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .welcome-section h2 {
+            color: #27ae60;
+            font-size: 20px;
+        }
+        .contact-section {
+            background-color: #1e8449;
+            color: white;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #bdc3c7;
+            padding: 10px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h3>જય માતાજી</h3>
+        <h1>ખંડેવાલ પ્રાથમિક શાળા</h1>
+        <p>તાલુકો: કાલોલ | જિલ્લો: પંચમહાલ | ડાયસ કોડ: 24170603401</p>
+    </header>
+
+    <div class="marquee-bar">
+        <marquee>ખંડેવાલ પ્રાથમિક શાળાની વેબસાઇટ પર આપનું સ્વાગત છે. નવીનતમ સૂચનાઓ અને અપડેટ્સ માટે આ વિભાગ જુઓ.</marquee>
+    </div>
+
+    <!-- Photo Slider Section (photo1 to photo25) -->
+    <div class="slider-container">
+        <img class="slide active" src="photo1.jpg" alt="School Photo 1">
+        <img class="slide" src="photo2.jpg" alt="School Photo 2">
+        <img class="slide" src="photo3.jpg" alt="School Photo 3">
+        <img class="slide" src="photo4.jpg" alt="School Photo 4">
+        <img class="slide" src="photo5.jpg" alt="School Photo 5">
+        <img class="slide" src="photo6.jpg" alt="School Photo 6">
+        <img class="slide" src="photo7.jpg" alt="School Photo 7">
+        <img class="slide" src="photo8.jpg" alt="School Photo 8">
+        <img class="slide" src="photo9.jpg" alt="School Photo 9">
+        <img class="slide" src="photo10.jpg" alt="School Photo 10">
+        <img class="slide" src="photo11.jpg" alt="School Photo 11">
+        <img class="slide" src="photo12.jpg" alt="School Photo 12">
+        <img class="slide" src="photo13.jpg" alt="School Photo 13">
+        <img class="slide" src="photo14.jpg" alt="School Photo 14">
+        <img class="slide" src="photo15.jpg" alt="School Photo 15">
+        <img class="slide" src="photo16.jpg" alt="School Photo 16">
+        <img class="slide" src="photo17.jpg" alt="School Photo 17">
+        <img class="slide" src="photo18.jpg" alt="School Photo 18">
+        <img class="slide" src="photo19.jpg" alt="School Photo 19">
+        <img class="slide" src="photo20.jpg" alt="School Photo 20">
+        <img class="slide" src="photo21.jpg" alt="School Photo 21">
+        <img class="slide" src="photo22.jpg" alt="School Photo 22">
+        <img class="slide" src="photo23.jpg" alt="School Photo 23">
+        <img class="slide" src="photo24.jpg" alt="School Photo 24">
+        <img class="slide" src="photo25.jpg" alt="School Photo 25">
+    </div>
+
+    <div class="login-buttons">
+        <a href="#" class="btn">એડમીન લોગીન</a>
+        <a href="#" class="btn">પ્રિન્સિપાલ લોગીન</a>
+    </div>
+
+    <div class="menu-grid">
+        <a href="profile.html" class="btn btn-green">પ્રોફાઈલ</a>
+        <a href="bhautik_suvidha.html" class="btn btn-green">ભૌતિક સુવિધા</a>
+        <a href="shikshak_profile.html" class="btn btn-green">શિક્ષક પ્રોફાઈલ</a>
+        <a href="smc.html" class="btn btn-green">એસએમસી</a>
+        <a href="gallery.html" class="btn btn-green">એક્ટિવિટી ફોટો ગેલેરી</a>
+        <a href="admission_form.html" class="btn btn-green">ઓનલાઈન એડમિશન</a>
+        <a href="rules.html" class="btn btn-green">રૂલ્સ એન્ડ રેગ્યુલેશન</a>
+        <a href="portal.html" class="btn btn-green">કોનેક્શન પોર્ટલ</a>
+        <a href="test_series.html" class="btn btn-green">ટેસ્ટ સીરીઝ</a>
+        <a href="forms.html" class="btn btn-green">જરૂરી ફોર્મ</a>
+    </div>
+
+    <div class="welcome-section">
+        <h2>હોમ પેજમાં આપનું સ્વાગત છે</h2>
+        <p>ખંડેવાલ પ્રાથમિક શાળાની વેબસાઈટ પર આપનું હાર્દિક સ્વાગત છે. ઉપર આપેલા મેનુ દ્વારા આપ શાળાની વિવિધ વિગતો ચકાસી શકો છો.</p>
+    </div>
+
+    <div class="contact-section">
+        <h3>કોન્ટેક્ટ પ્રિન્સિપાલ</h3>
+        <p><strong>ખંડેવાલ પ્રાથમિક શાળા</strong><br>
+        આચાર્યશ્રી: ઘુઘાભાઈ સુથાર<br>
+        મોબાઈલ નંબર: 9426581853</p>
+    </div>
+
+    <footer>
+        <p>Developer & Design: Shri Rakeshkumar R. Prajapati | Mobile Number: 8140844248</p>
+    </footer>
+
+    <script>
+        /* Automatic Slider Script */
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        
+        function changeSlide() {
+            if (slides.length === 0) return;
+            slides[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].classList.add('active');
+        }
+        
+        if (slides.length > 0) {
+            setInterval(changeSlide, 3000); /* દર 3 સેકન્ડે ફોટો બદલાશે */
+        }
+    </script>
+
+</body>
+</html>
+
