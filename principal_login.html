@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>પ્રિન્સિપાલ લોગીન - ખંડેવાલ પ્રાથમિક શાળા</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+        h2 {
+            color: #27ae60;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .btn-submit {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .btn-submit:hover {
+            background-color: #1e8449;
+        }
+        .back-link {
+            display: block;
+            margin-top: 15px;
+            color: #1a5276;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>પ્રિન્સિપાલ લોગીન</h2>
+        <form onsubmit="alert('લોગીન સફળ રહ્યું!'); return false;">
+            <div class="input-group">
+                <label>યુઝરનેમ (Username)</label>
+                <input type="text" required placeholder="યુઝરનેમ દાખલ કરો">
+            </div>
+            <div class="input-group">
+                <label>પાસવર્ડ (Password)</label>
+                <input type="password" required placeholder="પાસવર્ડ દાખલ કરો">
+            </div>
+            <button type="submit" class="btn-submit">લોગીન કરો</button>
+        </form>
+        <a href="index.html" class="back-link">← હોમ પેજ પર પાછા જાઓ</a>
+    </div>
+</body>
+</html>
+
